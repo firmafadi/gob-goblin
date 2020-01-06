@@ -8,6 +8,8 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+        <link href="{{asset('css/app.css')}}" rel="stylesheet" type="text/css">
+
 
         <!-- Styles -->
         <style>
@@ -79,7 +81,8 @@
                 </div>
             @endif
 
-            <div class="content">
+            <div class="content" id ="app">
+                <example-component></example-component>
                 <div class="title m-b-md">
                   lskklsjklsjdfkldsjfklsdjfl
                 </div>
@@ -95,5 +98,6 @@
                 </div>
             </div>
         </div>
+        <script src="{{ asset('js/app.js') }}"></script>
     </body>
 </html>
