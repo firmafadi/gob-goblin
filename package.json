@@ -1,4 +1,6 @@
-{
+{ "scripts": {
+    "postinstall": "npm run prod"
+  },
     "private": true,
     "scripts": {
         "dev": "npm run development",
